@@ -1,7 +1,7 @@
 # Northrup_IDL_Converter
 Convert raw .dat files from Northrup IDL software into csv file
 
-We want to take the .dat files from Paul Northrup's IDL software and convert them into csv format. 
+We want to take the .dat files from Paul Northrup's IDL software, strip out anything that isn't element data, and convert them into csv format. 
 These files will look something like this:
 
 #  ROI    Min   Max    Mean     Sigma    Median     Mode
